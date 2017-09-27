@@ -3,7 +3,7 @@ $font-color: #fff;
 $primary-color: #008ed6;
 $dark-overlay: rgba(0, 0, 0, 0.7);
 $icon-size: 30px;
-$hero-height: 60%;
+$hero-height: 60vh;
 
 body,
 html {
@@ -19,7 +19,8 @@ html {
 }
 
 #home-section {
-  background: url('../img/hawaii2.jpg') no-repeat center center fixed;
+  background: url('../img/hawaii2.jpg') no-repeat center top;
+  background-position: fixed;
   background-size: cover;
   height: $hero-height;
 }

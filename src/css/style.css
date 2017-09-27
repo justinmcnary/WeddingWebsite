@@ -10,9 +10,10 @@ html {
   opacity: 0.8; }
 
 #home-section {
-  background: url("../img/hawaii2.jpg") no-repeat center center fixed;
+  background: url("../img/hawaii2.jpg") no-repeat center top;
+  background-position: fixed;
   background-size: cover;
-  height: 60%; }
+  height: 60vh; }
 
 #explore-section .fa,
 #share-section .fa {

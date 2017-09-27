@@ -24,7 +24,7 @@ let x = setInterval(function() {
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   $('#hero-section-text').html(`${days}d ${hours}h ${minutes} m ${seconds} s`);
-  $('.countdown').html(`#GETMCNASTY IN ${days}d ${hours}h ${minutes} m ${seconds} s`);
+  $('.countdown').html(`#GETMCNASTY IN <br> ${days}d ${hours}h ${minutes} m ${seconds} s`);
 
   if (distance < 0) {
     clearInterval(x);
