@@ -3,11 +3,13 @@ $font-color: #fff;
 $primary-color: #008ed6;
 $dark-overlay: rgba(0, 0, 0, 0.7);
 $icon-size: 30px;
-$hero-height: 60vh;
+$hero-height: 60%;
 
-body {
+body,
+html {
   background: $bg-color;
   color: $font-color;
+  height: 100%;
 }
 
 .navbar {
