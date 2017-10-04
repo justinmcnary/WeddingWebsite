@@ -31,3 +31,13 @@ let x = setInterval(function() {
     $('#hero-section-text').html(`PARTY TIME!`);
   }
 }, 1000);
+
+//AJAX CALL HANDLER//
+$('form').submit(function(e) {
+  e.preventDefault();
+  $.ajax({
+    method: 'POST',
+    url: './mail.php',
+    data: $(this).serialize()
+  }).done(() => $('form').html(`<h4>Message Sent!</h4>`));
+});
